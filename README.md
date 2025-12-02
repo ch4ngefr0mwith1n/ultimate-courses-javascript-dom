@@ -13,3 +13,4 @@ JavaScript DOM: Final Project
 ---
 
 Members, please refer to the [course setup](https://ultimatecourses.com/course/javascript-dom) instructions to get started!
+# ultimate-courses-javascript-dom

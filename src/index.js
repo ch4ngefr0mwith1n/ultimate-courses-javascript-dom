@@ -274,6 +274,9 @@ setTimeout(() => {
 }, 2000)
 //----------------------------------------------------------------------------------------------------------------------
 // Cloning DOM Elements
+
+// kloniranje DOM čvorova često nije potrebno u praksi, ali se ponekad pojavljuje
+// obično su to slučajevi kada nam je potreban duplikat nekog itema, dugmeta i slično…
 const div4 = document.createElement('div')
 const span2 = document.createElement('span')
 
@@ -292,6 +295,9 @@ console.log(newClone)
 app.append(newClone)
 //----------------------------------------------------------------------------------------------------------------------
 // Removing DOM Elements
+
+// recimo da želimo da uklonimo element nakon što korisnik klikne na njega, pošalje neku formu ili slično
+// to radimo preko metode "remove()"
 const div5 = document.createElement('div')
 div5.innerText = 'I am a message'
 
@@ -306,4 +312,22 @@ setTimeout(() => {
 setTimeout(() => {
     div5.parentNode.removeChild(div5)
 }, 2500)
+//----------------------------------------------------------------------------------------------------------------------
+//-----------------------------------------> Querying and Traversing the DOM <------------------------------------------
+//----------------------------------------------------------------------------------------------------------------------
+// Querying DOM Nodes (HTML Collections)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
